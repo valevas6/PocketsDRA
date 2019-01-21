@@ -1,0 +1,278 @@
+/*!
+Theme Name TM7200
+Template Theme URI: http://www.srp.ucr.ac.cr/
+Author: Valeria Vasquez TM7200 - III 2019
+Author URI: http://www.srp.ucr.ac.cr/
+Description: Tema del curso de Desarrollo Rapido de Aplicaciones
+Version: 1.0
+License: GNU General Public License v2
+*/
+
+@font-face {
+    font-family: "Holiday";
+    src: url('../proyecto/assets/font/HolidayFree.otf');
+}
+
+h1 {
+    font-family: "Holiday";
+    color: #009FEF;
+}
+
+h2 {
+    font-family: "Holiday";
+    color: #FF85DD;
+    padding-bottom: 10%;
+}
+
+.row {
+    width: 100%;
+}
+
+h3 {
+    font-family: "Holiday";
+    color: #FFD4F7;
+    font-size: 20px;
+}
+
+nav {
+    background-color: #00102E;
+    font-family: "Holiday";
+}
+
+.p1 {
+    color: #FFD4F7;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 60px;
+    padding-left: 60px;
+}
+
+p {
+    color: #FFD4F7;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.gettouch {
+    width: 100%;
+}
+
+.margin-gett {
+    padding: 40px;
+}
+
+.margintextgett {
+    margin-bottom: 40px;
+}
+
+a {
+    font-family: "Holiday";
+    color: #FF85DD;
+    margin-left: 40px;
+}
+
+a:hover {
+    color: #009FEF;
+}
+
+.linkover {
+    color: #009FEF;
+}
+
+.background-header {
+    background-image: url(../proyecto/assets/img/about.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-right: 0;
+    max-width: 100%;
+    padding: 10%;
+}
+
+.background-contact {
+    background-image: url(../proyecto/assets/img/ab3.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    max-width: 100%;
+    padding: 60px;
+    padding-left: 160px;
+}
+
+.logo-header {
+    width: 120px;
+    margin-right: 70px;
+}
+
+.loguito {
+    width: 80%;
+    margin-left: 10%
+}
+
+.blueback {
+    background: #00102E;
+}
+
+.button {
+    color: #00102E;
+    background: #009FEF;
+    font-family: "Holiday";
+}
+
+.fitem {
+    width: 30%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+input {
+    background: #00102E;
+    border: #FFD4F7;
+}
+
+.mrow {
+    padding-top: 40px;
+}
+
+nav li {
+    display: inline-block;
+}
+
+
+/*********************/
+
+.background-header-home {
+    background-image: url(../proyecto/assets/img/fondo_home1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-right: 0;
+    max-width: 100%;
+    padding: 10%;
+}
+
+.background-drinks {
+    background-image: url(../proyecto/assets/img/fondo_home2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-right: 0;
+    max-width: 100%;
+    padding: 10%;
+}
+
+.background-res {
+    background-image: url(../proyecto/assets/img/fondo_home3.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-right: 0;
+    max-width: 100%;
+    padding: 10%;
+}
+
+.background-enter {
+    background-image: url(../proyecto/assets/img/fondo_home4.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-right: 0;
+    max-width: 100%;
+    padding: 10%;
+}
+
+.background-disco {
+    background-image: url(../proyecto/assets/img/fondo_home5.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-right: 0;
+    max-width: 100%;
+    padding: 10%;
+}
+
+.background-acti {
+    background-image: url(../proyecto/assets/img/fondo_home6.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-right: 0;
+    max-width: 100%;
+    padding: 10%;
+}
+
+.home_img {
+    width: 90%;
+    padding-left: 5rem
+}
+
+.res_imgs {
+    width: 90%;
+}
+
+.enter_img {
+    width: 100%;
+}
+
+.col-xs-6 {
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (max-width: 890px) {
+    .mrow {
+        padding-top: 10px;
+    }
+    .background-contact {
+        padding: 10px;
+        padding-left: 10px;
+    }
+    h3 {
+        font-size: 15px;
+    }
+    .margin-gett {
+        padding: 20px;
+    }
+    h2 {
+        padding-bottom: 3%;
+        padding-top: 3%;
+    }
+    .margintextgett {
+        margin-bottom: 20px;
+    }
+    .p1 {
+        padding-left: 40px;
+        padding-right: 40px;
+        font-size: 14px;
+    }
+    h1,
+    h2 {
+        font-size: 20px;
+    }
+    .button {
+        margin-bottom: 50px;
+        font-size: 14px;
+    }
+    li {
+        padding: 0px;
+        margin: 0%;
+    }
+    .gettouch {
+        width: 20px;
+    }
+    .fitem {
+        width: 30px;
+    }
+    .logo-header {
+        margin-right: 20px;
+    }
+}
+
+@media (max-width: 1500px) {
+    .gettouch {
+        width: 30px;
+    }
+    h3 {
+        font-size: 17px;
+    }
+    a {
+        margin-left: 10px;
+    }
+    .p1 {
+        padding-left: 40px;
+        padding-right: 40px;
+        font-size: 14px;
+    }
+}
