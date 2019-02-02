@@ -1,7 +1,6 @@
 
 <?php 
 get_header();
-get_footer();
 ?>
 
 
@@ -10,13 +9,13 @@ get_footer();
         <img src="<?php bloginfo('template_directory'); ?>/assets/img/logo.png" class="loguito">
     </div>
 
-    <div class="blueback">
+    <div class="fondoazul">
         <h1>
             <br>
             <center>Give Us a Shoot</center>
             <br>
         </h1>
-        <p class="p1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius voluptates tempore quo iste minus architecto dolore facilis libero enim. Eum soluta officia aliquid quae modi possimus saepe odio laudantium voluptate? Lorem ipsum dolor sit amet consectetur
+        <p class="textos">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius voluptates tempore quo iste minus architecto dolore facilis libero enim. Eum soluta officia aliquid quae modi possimus saepe odio laudantium voluptate? Lorem ipsum dolor sit amet consectetur
             adipisicing elit. Eius voluptates tempore quo iste minus architecto dolore facilis libero enim. Eum soluta officia aliquid quae modi possimus saepe odio laudantium voluptate?</p>
         <br>
     </div>
@@ -27,15 +26,15 @@ get_footer();
                 <center>
                     <h2>Formularie Contact</h2>
                 </center>
-                <div class="form-group row mrow">
+                <div class="form-group row paddingtoprow">
                     <div class="col-lg-3 col-md-12"><label> <h3>Name:</h3> </label></div>
                     <div class="col-lg-9 col-md-12"><input type="text" class="form-control" placeholder=""></div>
                 </div>
-                <div class="form-group row mrow">
+                <div class="form-group row paddingtoprow">
                     <div class="col-lg-3 col-md-12"><label><h3>Email:</h3></label></div>
                     <div class="col-lg-9 col-md-12"><input type="email" class="form-control" placeholder=""></div>
                 </div>
-                <div class="form-group row mrow">
+                <div class="form-group row paddingtoprow">
                     <div class="col-lg-3 col-md-12"><label><h3>Comment:</h3></label></div>
                     <div class="col-lg-9 col-md-12"><textarea type="text" rows="3" class="form-control" placeholder=""></textarea></div>
                 </div>
@@ -68,13 +67,7 @@ get_footer();
         </div>
     </div>
 
-    <div class="blueback">
-        <nav>
-            <center>
-                <li><img src="<?php bloginfo('template_directory'); ?>/assets/img/face.png" class="fitem"></li>
-                <li><img src="<?php bloginfo('template_directory'); ?>/assets/img/snap.png" class="fitem"></li>
-                <li><img src="<?php bloginfo('template_directory'); ?>/assets/img/twitter.png" class="fitem"></li>
-            </center>
-        </nav>
-    </div>
+<?php 
+get_footer();
+?>
     

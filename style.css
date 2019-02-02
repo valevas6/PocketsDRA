@@ -1,7 +1,7 @@
 /*!
-Theme Name TM7200
+Theme Name Pockets
 Template Theme URI: http://www.srp.ucr.ac.cr/
-Author: Valeria Vasquez TM7200 - III 2019
+Author: Valeria Vasquez Fernando Castillo TM7200 - III 2019
 Author URI: http://www.srp.ucr.ac.cr/
 Description: Tema del curso de Desarrollo Rapido de Aplicaciones
 Version: 1.0
@@ -9,41 +9,47 @@ License: GNU General Public License v2
 */
 
 @font-face {
+    font-family: "Vesetia";
+    src: url('../proyecto/assets/font/vesetia');
+}
+
+@font-face {
     font-family: "Holiday";
     src: url('../proyecto/assets/font/HolidayFree.otf');
 }
 
 h1 {
-    font-family: "Holiday";
+    font-family: "Vesetia";
     color: #009FEF;
 }
 
 h2 {
-    font-family: "Holiday";
+    font-family: "Vesetia";
     color: #FF85DD;
     padding-bottom: 10%;
 }
 
-.row {
-    width: 100%;
-}
-
 h3 {
-    font-family: "Holiday";
+    font-family: "Vesetia";
     color: #FFD4F7;
     font-size: 20px;
 }
 
 nav {
     background-color: #00102E;
-    font-family: "Holiday";
+    font-family: "Vesetia";
 }
 
-.p1 {
+.row {
+    width: 100%;
+}
+
+.textos {
     color: #FFD4F7;
     font-family: Arial, Helvetica, sans-serif;
     padding-right: 60px;
     padding-left: 60px;
+    text-align: justify;
 }
 
 p {
@@ -63,14 +69,23 @@ p {
     margin-bottom: 40px;
 }
 
+.navbar-dark {
+    color: #FF85DD;
+}
+
 a {
-    font-family: "Holiday";
+    font-family: "Vesetia";
     color: #FF85DD;
     margin-left: 40px;
+    font-size: 20px;
 }
 
 a:hover {
     color: #009FEF;
+}
+
+.navbar-nav {
+    color: #FF85DD;
 }
 
 .linkover {
@@ -105,7 +120,7 @@ a:hover {
     margin-left: 10%
 }
 
-.blueback {
+.fondoazul {
     background: #00102E;
 }
 
@@ -126,12 +141,29 @@ input {
     border: #FFD4F7;
 }
 
-.mrow {
+.paddingtoprow {
     padding-top: 40px;
 }
 
 nav li {
     display: inline-block;
+}
+
+.nopadding {
+    padding-bottom: 0%;
+}
+
+
+/******Página 404***********/
+
+.background-404 {
+    background-image: url(../proyecto/assets/img/about.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-right: 0;
+    max-width: 100%;
+    padding: 10%;
+    height: 100%;
 }
 
 
@@ -212,7 +244,7 @@ nav li {
 }
 
 @media (max-width: 890px) {
-    .mrow {
+    .paddingtoprow {
         padding-top: 10px;
     }
     .background-contact {
@@ -232,14 +264,14 @@ nav li {
     .margintextgett {
         margin-bottom: 20px;
     }
-    .p1 {
-        padding-left: 40px;
-        padding-right: 40px;
+    .textos {
+        padding-left: 20px;
+        padding-right: 20px;
         font-size: 14px;
     }
     h1,
     h2 {
-        font-size: 20px;
+        font-size: 30px;
     }
     .button {
         margin-bottom: 50px;
@@ -270,9 +302,9 @@ nav li {
     a {
         margin-left: 10px;
     }
-    .p1 {
-        padding-left: 40px;
-        padding-right: 40px;
+    .textos {
+        padding-left: 20px;
+        padding-right: 20px;
         font-size: 14px;
     }
 }

@@ -1,7 +1,6 @@
 
 <?php 
 get_header();
-get_footer();
 ?>
 
     <div class="background-header">
@@ -14,7 +13,7 @@ get_footer();
             <center>Drinks</center>
             <br>
         </h1>
-        <p class="p1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius voluptates tempore quo iste minus architecto dolore facilis libero enim. Eum soluta officia aliquid quae modi possimus saepe odio laudantium voluptate? Lorem ipsum dolor sit amet consectetur
+        <p class="textos">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius voluptates tempore quo iste minus architecto dolore facilis libero enim. Eum soluta officia aliquid quae modi possimus saepe odio laudantium voluptate? Lorem ipsum dolor sit amet consectetur
             adipisicing elit. Eius voluptates tempore quo iste minus architecto dolore facilis libero enim. Eum soluta officia aliquid quae modi possimus saepe odio laudantium voluptate?</p>
             <img src="<?php bloginfo('template_directory'); ?>/assets/img/drinks_image.png" class="home_img">
         <br>
@@ -26,7 +25,7 @@ get_footer();
             <center>Restaurant</center>
             <br>
         </h1>
-        <p class="p1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius voluptates tempore quo iste minus architecto dolore facilis libero enim. Eum soluta officia aliquid quae modi possimus saepe odio laudantium voluptate? Lorem ipsum dolor sit amet consectetur
+        <p class="textos">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius voluptates tempore quo iste minus architecto dolore facilis libero enim. Eum soluta officia aliquid quae modi possimus saepe odio laudantium voluptate? Lorem ipsum dolor sit amet consectetur
             adipisicing elit. Eius voluptates tempore quo iste minus architecto dolore facilis libero enim. Eum soluta officia aliquid quae modi possimus saepe odio laudantium voluptate?</p>
         <br>
         <div class="row container">
@@ -47,7 +46,7 @@ get_footer();
             <center>Entertaiment</center>
             <br>
         </h1>
-        <p class="p1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius voluptates tempore quo iste minus architecto dolore facilis libero enim. Eum soluta officia aliquid quae modi possimus saepe odio laudantium voluptate? Lorem ipsum dolor sit amet consectetur
+        <p class="textos">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius voluptates tempore quo iste minus architecto dolore facilis libero enim. Eum soluta officia aliquid quae modi possimus saepe odio laudantium voluptate? Lorem ipsum dolor sit amet consectetur
             adipisicing elit. Eius voluptates tempore quo iste minus architecto dolore facilis libero enim. Eum soluta officia aliquid quae modi possimus saepe odio laudantium voluptate?</p>
             
             <div class="col-xs-6">
@@ -62,7 +61,7 @@ get_footer();
             <center>Disco</center>
             <br>
         </h1>
-        <p class="p1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius voluptates tempore quo iste minus architecto dolore facilis libero enim. Eum soluta officia aliquid quae modi possimus saepe odio laudantium voluptate? Lorem ipsum dolor sit amet consectetur
+        <p class="textos">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius voluptates tempore quo iste minus architecto dolore facilis libero enim. Eum soluta officia aliquid quae modi possimus saepe odio laudantium voluptate? Lorem ipsum dolor sit amet consectetur
             adipisicing elit. Eius voluptates tempore quo iste minus architecto dolore facilis libero enim. Eum soluta officia aliquid quae modi possimus saepe odio laudantium voluptate?</p>
             
             <div class="col-xs-6">
@@ -77,7 +76,7 @@ get_footer();
             <center>Activities</center>
             <br>
         </h1>
-        <p class="p1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius voluptates tempore quo iste minus architecto dolore facilis libero enim. Eum soluta officia aliquid quae modi possimus saepe odio laudantium voluptate? Lorem ipsum dolor sit amet consectetur
+        <p class="textos">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius voluptates tempore quo iste minus architecto dolore facilis libero enim. Eum soluta officia aliquid quae modi possimus saepe odio laudantium voluptate? Lorem ipsum dolor sit amet consectetur
             adipisicing elit. Eius voluptates tempore quo iste minus architecto dolore facilis libero enim. Eum soluta officia aliquid quae modi possimus saepe odio laudantium voluptate?</p>
             
             <div class="col-xs-6">
@@ -85,13 +84,7 @@ get_footer();
             </div>
         <br>
     </div>
-
-     <div class="blueback">
-        <nav>
-            <center>
-                <li><img src="<?php bloginfo('template_directory'); ?>/assets/img/face.png" class="fitem"></li>
-                <li><img src="<?php bloginfo('template_directory'); ?>/assets/img/snap.png" class="fitem"></li>
-                <li><img src="<?php bloginfo('template_directory'); ?>/assets/img/twitter.png" class="fitem"></li>
-            </center>
-        </nav>
-    </div>
+    
+<?php 
+get_footer();
+?>
