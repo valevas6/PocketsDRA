@@ -1,12 +1,10 @@
 <footer >
     
-<div class="blueback">
+<div class="center_elements blueback">
         <nav>
-            <center>
-                <li><img src="<?php bloginfo('template_directory'); ?>/assets/img/face.png" class="fitem"></li>
-                <li><img src="<?php bloginfo('template_directory'); ?>/assets/img/snap.png" class="fitem"></li>
-                <li><img src="<?php bloginfo('template_directory'); ?>/assets/img/twitter.png" class="fitem"></li>
-            </center>
+                <li><a href="https://facebook.com"><img src="<?php bloginfo('template_directory'); ?>/assets/img/face.png" class="fitem foot_imagen"></a></li>
+                <li><a href="https://snapchat.com"><img src="<?php bloginfo('template_directory'); ?>/assets/img/snap.png" class="fitem foot_imagen"></a></li>
+                <li><a href="https://twitter.com"><img src="<?php bloginfo('template_directory'); ?>/assets/img/twitter.png" class="fitem foot_imagen"></a></li>
         </nav>
     </div>
 

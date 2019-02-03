@@ -11,11 +11,11 @@
 <body <?php body_class(); ?>>
 
 
-<nav class="navbar navbar-expand-md " role="navigation">
-    <div class="container">
+<nav class="navbar navbar-expand-md" role="navigation">
+    <div class="container global_container">
         <!-- Brand and toggle get grouped for better mobile display -->
         
-        <img src="<?php bloginfo('template_directory'); ?>/assets/img/logo.png" class="logo-header">
+        <a href="index.php"><img src="<?php bloginfo('template_directory'); ?>/assets/img/logo.png" class="logo-header" alt="logo"></a>
         <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-controls="bs-example-navbar-collapse-1" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
