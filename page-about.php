@@ -5,15 +5,21 @@ get_header();
 
 
 
-    <div class="background-header center_elements">
+    <div class="background-header">
         <img src="<?php bloginfo('template_directory'); ?>/assets/img/logo.png" class="loguito">
     </div>
 
-    <div class="fondoazul center_elements">
-        <h1 class="title_distance_contact">Give Us a Shoot</h1>
+    <div class="fondoazul">
+        <h1>
+            <br>
+            <center>Give Us a Shoot</center>
+            <br>
+        </h1>
         <p class="textos">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius voluptates tempore quo iste minus architecto dolore facilis libero enim. Eum soluta officia aliquid quae modi possimus saepe odio laudantium voluptate? Lorem ipsum dolor sit amet consectetur
             adipisicing elit. Eius voluptates tempore quo iste minus architecto dolore facilis libero enim. Eum soluta officia aliquid quae modi possimus saepe odio laudantium voluptate?</p>
+        <br>
     </div>
+
     <div class="background-contact">
         <div class="row container">
             <div class="col-lg-6 col-md-12 mar">
@@ -32,7 +38,8 @@ get_header();
                     <div class="col-lg-3 col-md-12"><label><h3>Comment:</h3></label></div>
                     <div class="col-lg-9 col-md-12"><textarea type="text" rows="3" class="form-control" placeholder=""></textarea></div>
                 </div>
-                <center><button class="btn button button_contact">Submit</button></center>
+                <br>
+                <center><button class="btn button">Submit</button></center>
             </div>
             <div class="col-lg-6 col-md-12">
                 <center>

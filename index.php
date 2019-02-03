@@ -2,8 +2,7 @@
 <?php 
 get_header();
 ?>
-
-    <div class="background-header">
+    <div class="background-header center_elements">
         <img src="<?php bloginfo('template_directory'); ?>/assets/img/logo.png" class="loguito">
     </div>
 
@@ -66,7 +65,7 @@ get_header();
          
             <img src="<?php bloginfo('template_directory'); ?>/assets/img/activity_img.png" class="banner_img">
 
-        <br>
+        
     </div>
     
 <?php 
