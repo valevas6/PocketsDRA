@@ -103,6 +103,27 @@ a:hover {
 
 }
 
+.background_cocktail {
+    background-image: url(../pockets_project/assets/img/fondo_cocktails1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-right: 0;
+    width: 100%;
+    padding: 10%;
+    background-attachment: fixed;
+
+}
+
+.background_cocktail2 {
+    background-image: url(../pockets_project/assets/img/fondo_cocktails2.png);
+    background-position: center;
+    padding-right: 0;
+    width: 100%;
+    padding: 10%;
+    background-attachment: fixed;
+
+}
+
 .background-contact {
     background-image: url(../pockets_project/assets/img/ab3.png);
     background-repeat: no-repeat;
@@ -121,6 +142,10 @@ a:hover {
 .loguito {
     width: 80%;
     margin-left: 10%
+}
+
+.page_intro {
+    width: 40%;
 }
 
 .fondoazul {
@@ -172,6 +197,9 @@ nav li {
 
 
 /*********************/
+.txt_bebidas{
+    padding: 8% 0% 2% 0%;
+}
 
 .button_contact{
     padding: 3.5%;
@@ -328,8 +356,7 @@ a:link {text-decoration: none;}
         padding-right: 20px;
         font-size: 14px;
     }
-    h1,
-    h2 {
+    h1, h2 {
         font-size: 30px;
     }
     .button {
@@ -413,9 +440,25 @@ a:link {text-decoration: none;}
         width: 70%;
     }
 
+    .background_cocktail {
+        height: 100%;
+    }
+
+    .background_cocktail2{
+        height: auto;
+    }
+
     .textos{
         width: 100%;
         padding: 0;
+    }
+
+    .txt_bebidas{
+        padding: 8% 0% 2% 0%;
+    }
+
+    .fix_distribution{
+        float: right;
     }
 }
 
@@ -428,5 +471,8 @@ a:link {text-decoration: none;}
 
     .x_img{
         width: 40%;
+    }
+    .txt_bebidas{
+        padding: 8% 0% 2% 0%;
     }
 }

@@ -46,8 +46,6 @@ get_header();
             adipisicing elit. Eius voluptates tempore quo iste minus architecto dolore facilis libero enim. Eum soluta officia aliquid quae modi possimus saepe odio laudantium voluptate?</p>
   
        <img src="<?php bloginfo('template_directory'); ?>/assets/img/enter.png" class="res_imgs x_img">
- 
-        <br>
     </div>
 
     <div class="background-disco center_elements">

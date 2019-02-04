@@ -6,7 +6,7 @@ get_header();
 
 
     <div class="background-header center_elements">
-        <img src="<?php bloginfo('template_directory'); ?>/assets/img/logo.png" class="loguito">
+        <img src="<?php bloginfo('template_directory'); ?>/assets/img/contact_img.png" class="page_intro">
     </div>
 
     <div class="fondoazul center_elements">
