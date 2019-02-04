@@ -10,12 +10,12 @@ License: GNU General Public License v2
 
 @font-face {
     font-family: "Vesetia";
-    src: url(../proyecto/assets/font/Vesetia.otf);
+    src: url(../pockets_project/assets/font/Vesetia.otf);
 }
 
 @font-face {
     font-family: "Holiday";
-    src: url(../proyecto/assets/font/HolidayFree.otf);
+    src: url(../pockets_project/assets/font/HolidayFree.otf);
 }
 
 h1 {
@@ -32,7 +32,7 @@ h2 {
 h3 {
     font-family: "Vesetia";
     color: #FFD4F7;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 nav {
@@ -50,7 +50,6 @@ nav {
     padding-right: 60px;
     padding-left: 60px;
     text-align: justify;
-    font-size: 16px;
 }
 
 p {
@@ -63,8 +62,7 @@ p {
 }
 
 .margin-gett {
-    padding-bottom: 40px;
-    padding-top: 40px;
+    padding: 40px;
 }
 
 .margintextgett {
@@ -95,13 +93,14 @@ a:hover {
 }
 
 .background-header {
-    background-image: url(../proyecto/assets/img/about.png);
+    background-image: url(../pockets_project/assets/img/about.png);
     background-repeat: no-repeat;
     background-position: center;
     padding-right: 0;
     width: 100%;
     padding: 10%;
     background-attachment: fixed;
+
 }
 
 .background_cocktail {
@@ -126,7 +125,7 @@ a:hover {
 }
 
 .background-contact {
-    background-image: url(../proyecto/assets/img/ab3.png);
+    background-image: url(../pockets_project/assets/img/ab3.png);
     background-repeat: no-repeat;
     background-position: center;
     max-width: 100%;
@@ -142,8 +141,7 @@ a:hover {
 
 .loguito {
     width: 80%;
-    margin-left: 10%;
-    background-attachment: fixed;
+    margin-left: 10%
 }
 
 .page_intro {
@@ -152,7 +150,6 @@ a:hover {
 
 .fondoazul {
     background: #00102E;
-    padding-bottom: 40px;
 }
 
 .button {
@@ -188,7 +185,7 @@ nav li {
 /******Página 404***********/
 
 .background-404 {
-    background-image: url(../proyecto/assets/img/about.png);
+    background-image: url(../pockets_project/assets/img/404_img.png);
     background-repeat: no-repeat;
     background-position: center;
     padding-right: 0;
@@ -198,22 +195,36 @@ nav li {
     background-attachment: fixed;
 }
 
+.a_404 {
+    font-family: "Vesetia";
+    color: #FF85DD;
+    font-size: 40px;
+}
+
+.text_404{
+    font-size: 4rem;
+}
+
+.img_404_dimenciones{
+    position: relative;
+    width: 70%
+}
+
 
 /*********************/
 .txt_bebidas{
     padding: 8% 0% 2% 0%;
 }
 
-.button_contact {
-    padding: 2.5%;
-    font-size: 1.5rem;
-    border-radius: 25px;
-    -moz-border-radius: 25px;
-    -webkit-border-radius: 25px;
+.button_contact{
+    padding: 3.5%;
+    font-size: 2rem;
+    border-radius: 142px 142px 142px 142px;
+    -moz-border-radius: 142px 142px 142px 142px;
+    -webkit-border-radius: 142px 142px 142px 142px;
     font-family: 'Vesetia';
-    color: white;
+    color:white;
     margin-top: 50px;
-    align-content: center;
 }
 
 .foot_imagen:hover {
@@ -226,28 +237,36 @@ nav li {
     transform: scale(1.2);
 }
 
-.center_elements {
+.center_elements{
     text-align: center;
+    margin: 0 auto;
 }
 
-.section_link {
+.title_distance{
+    padding: 0% 0% 5% 0%;
+    font-size: 4rem;
+}
+
+.title_distance_contact{
+    padding: 5% 0% 5% 0%;
+}
+
+.section_link{
     font-size: 1rem;
     font-family: "Vesetia";
     padding: 2.5% 0% 0% 0%;
 }
 
-a:link {
-    text-decoration: none;
-}
+a:link {text-decoration: none;}
 
-.global_container {
+.global_container{
     width: 69%;
     margin: 0 auto;
     font-size: 300px;
 }
 
 .background-header-home {
-    background-image: url(../proyecto/assets/img/fondo_home1.png);
+    background-image: url(../pockets_project/assets/img/fondo_home1.png);
     background-repeat: no-repeat;
     background-position: center;
     padding-right: 0;
@@ -257,7 +276,7 @@ a:link {
 }
 
 .background-drinks {
-    background-image: url(../proyecto/assets/img/fondo_home2.png);
+    background-image: url(../pockets_project/assets/img/fondo_home2.png);
     background-repeat: no-repeat;
     background-position: center;
     padding-right: 0;
@@ -267,18 +286,17 @@ a:link {
 }
 
 .background-res {
-    background-image: url(../proyecto/assets/img/fondo_home3.png);
+    background-image: url(../pockets_project/assets/img/fondo_home3.png);
     background-repeat: no-repeat;
     background-position: center;
     padding-right: 0;
     max-width: 100%;
     padding: 10%;
     background-attachment: fixed;
-    margin-top: -40px;
 }
 
 .background-enter {
-    background-image: url(../proyecto/assets/img/fondo_home4.png);
+    background-image: url(../pockets_project/assets/img/fondo_home4.png);
     background-repeat: no-repeat;
     background-position: center;
     padding-right: 0;
@@ -288,7 +306,7 @@ a:link {
 }
 
 .background-disco {
-    background-image: url(../proyecto/assets/img/fondo_home5.png);
+    background-image: url(../pockets_project/assets/img/fondo_home5.png);
     background-repeat: no-repeat;
     background-position: center;
     padding-right: 0;
@@ -298,23 +316,17 @@ a:link {
 }
 
 .background-acti {
-    background-image: url(../proyecto/assets/img/fondo_home6.png);
+    background-image: url(../pockets_project/assets/img/fondo_home6.png);
     background-repeat: no-repeat;
     background-position: center;
     padding-right: 0;
     max-width: 100%;
     padding: 10%;
     background-attachment: fixed;
-    margin-bottom: -60px;
 }
 
 .banner_img {
     width: 100%;
-}
-
-.title_distance_contact {
-    padding-top: 60px;
-    padding-bottom: 30px;
 }
 
 .res_imgs {
@@ -333,43 +345,6 @@ a:link {
     margin-right: auto;
 }
 
-
-/*******************************Location*************************************/
-
-.background-location {
-    background-image: url(../proyecto/assets/img/fondo-loc.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    padding-right: 0;
-    width: 100%;
-    padding: 10%;
-    background-attachment: fixed;
-}
-
-.background-location2 {
-    background-image: url(../proyecto/assets/img/fondo-loc2.png);
-    background-position: center;
-    padding-right: 0;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    width: 100%;
-    transition: transform .2s;
-}
-
-.map {
-    width: 100%;
-    padding-top: 40px;
-    padding-bottom: 100px;
-}
-
-.paddingtext {
-    padding-top: 150px;
-    padding-bottom: 60px;
-}
-
-
-/*****************************************************************************/
-
 @media (max-width: 890px) {
     .paddingtoprow {
         padding-top: 10px;
@@ -379,7 +354,7 @@ a:link {
         padding-left: 10px;
     }
     h3 {
-        font-size: 25px;
+        font-size: 15px;
     }
     .margin-gett {
         padding: 20px;
@@ -394,15 +369,14 @@ a:link {
     .textos {
         padding-left: 20px;
         padding-right: 20px;
-        font-size: 15px;
-        padding-bottom: 20px;
+        font-size: 14px;
     }
     h1, h2 {
         font-size: 30px;
     }
     .button {
         margin-bottom: 50px;
-        font-size: 18px;
+        font-size: 14px;
     }
     li {
         padding: 0px;
@@ -432,12 +406,51 @@ a:link {
     .textos {
         padding-left: 20px;
         padding-right: 20px;
-        font-size: 15px;
-        padding-bottom: 20px;
+        font-size: 14px;
     }
+
 }
 
-@media (max-width: 500px) {
+@media (max-width: 500px){
+    
+    .loguito {
+        width: 80%;
+        margin: 75% 0% 0% 10%;
+    }
+    
+    .background-header{
+        height: 100%;
+    }
+    
+
+    .background-404{
+        height: auto;
+    }
+    
+    .background-header-home{
+        height: 100%;
+    }
+
+    .background-drinks{
+        height: 100%;
+    }
+
+    .background-res{
+        height: 100%;
+    }
+
+    .background-enter{
+        height: 100%;
+    }
+
+    .background-disco{
+        height: 100%;
+    }
+
+    .background-acti{
+        height: 100%;
+    }
+
     .res_imgs {
         width: 70%;
     }
@@ -462,10 +475,20 @@ a:link {
     .fix_distribution{
         float: right;
     }
+
+    .parr_404{
+        padding: 10% 0% 2% 0%;
+    }
 }
 
-@media (max-width: 450px) {
-    .x_img {
+@media (max-width: 450px){
+    .textos{
+        width: 100%;
+        padding: 0;
+        font-size: 1.2rem
+    }
+
+    .x_img{
         width: 40%;
     }
     .txt_bebidas{

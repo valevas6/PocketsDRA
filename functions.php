@@ -14,6 +14,13 @@ function load_assets(){
 
     //load BS JS
     wp_enqueue_script( 'bootstrap_js', 'https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js');
+
+    //load GSAP
+    wp_enqueue_script( 'gsap', 'https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js');
+
+    //load main js
+    wp_register_script( 'main_js', get_stylesheet_directory_uri(). '/assets/js/main.js',  array('jquery'), '1', true);
+    wp_enqueue_script('main_js');
 }
 
 add_action('wp_enqueue_scripts', 'load_assets');
