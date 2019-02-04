@@ -3,16 +3,13 @@
 get_header();
 ?>
 
-
-    <div class="background-location center_elements">
+    <div class="background-header center_elements">
         <img src="<?php bloginfo('template_directory'); ?>/assets/img/logo.png" class="loguito">
     </div>
 
 
-    <div class="background-location2">
-        <h1 class="paddingtext center_elements">     
-            Location
-        </h1>
+    <div class="background-ubi">
+    <h1 class="title_distance center_elements">Location</h1>
         <p class="textos">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius voluptates tempore quo iste minus architecto dolore facilis libero enim. Eum soluta officia aliquid quae modi possimus saepe odio laudantium voluptate Lorem ipsum dolor sit amet consectetur
         adipisicing elit. Eius voluptates tempore quo iste minus architecto dolore facilis libero enim. Eum soluta officia aliquid quae modi possimus saepe odio laudantium voluptate
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius voluptates tempore quo iste minus architecto dolore facilis libero enim. Eum soluta officia aliquid quae modi possimus saepe odio laudantium voluptate? </p>

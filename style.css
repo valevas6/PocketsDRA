@@ -10,12 +10,12 @@ License: GNU General Public License v2
 
 @font-face {
     font-family: "Vesetia";
-    src: url(../pockets_project/assets/font/Vesetia.otf);
+    src: url(../proyecto/assets/font/Vesetia.otf);
 }
 
 @font-face {
     font-family: "Holiday";
-    src: url(../pockets_project/assets/font/HolidayFree.otf);
+    src: url(../proyecto/assets/font/HolidayFree.otf);
 }
 
 h1 {
@@ -50,6 +50,7 @@ nav {
     padding-right: 60px;
     padding-left: 60px;
     text-align: justify;
+    padding-bottom: 100px;
 }
 
 p {
@@ -93,39 +94,46 @@ a:hover {
 }
 
 .background-header {
-    background-image: url(../pockets_project/assets/img/about.png);
+    background-image: url(../proyecto/assets/img/about.png);
     background-repeat: no-repeat;
     background-position: center;
     padding-right: 0;
     width: 100%;
     padding: 10%;
     background-attachment: fixed;
-
 }
 
 .background_cocktail {
-    background-image: url(../pockets_project/assets/img/fondo_cocktails1.png);
+    background-image: url(../proyecto/assets/img/fondo_cocktails1.png);
     background-repeat: no-repeat;
     background-position: center;
     padding-right: 0;
     width: 100%;
     padding: 10%;
     background-attachment: fixed;
-
 }
 
 .background_cocktail2 {
-    background-image: url(../pockets_project/assets/img/fondo_cocktails2.png);
+    background-image: url(../proyecto/assets/img/fondo_cocktails2.png);
     background-position: center;
     padding-right: 0;
     width: 100%;
     padding: 10%;
     background-attachment: fixed;
-
 }
 
 .background-contact {
-    background-image: url(../pockets_project/assets/img/ab3.png);
+    background-image: url(../proyecto/assets/img/ab3.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    max-width: 100%;
+    padding: 60px;
+    padding-left: 160px;
+    background-attachment: fixed;
+}
+
+.background-location {
+    background-image: url(../proyecto/assets/img/fondo-loc.png);
     background-repeat: no-repeat;
     background-position: center;
     max-width: 100%;
@@ -141,7 +149,6 @@ a:hover {
 
 .loguito {
     width: 80%;
-    margin-left: 10%
 }
 
 .page_intro {
@@ -181,11 +188,17 @@ nav li {
     padding-bottom: 0%;
 }
 
+.map {
+    width: 100%;
+    padding: -10%;
+    height: 40%;
+}
+
 
 /******Página 404***********/
 
 .background-404 {
-    background-image: url(../pockets_project/assets/img/404_img.png);
+    background-image: url(../proyecto/assets/img/404_img.png);
     background-repeat: no-repeat;
     background-position: center;
     padding-right: 0;
@@ -201,29 +214,30 @@ nav li {
     font-size: 40px;
 }
 
-.text_404{
+.text_404 {
     font-size: 4rem;
 }
 
-.img_404_dimenciones{
+.img_404_dimenciones {
     position: relative;
     width: 70%
 }
 
 
 /*********************/
-.txt_bebidas{
+
+.txt_bebidas {
     padding: 8% 0% 2% 0%;
 }
 
-.button_contact{
+.button_contact {
     padding: 3.5%;
     font-size: 2rem;
     border-radius: 142px 142px 142px 142px;
     -moz-border-radius: 142px 142px 142px 142px;
     -webkit-border-radius: 142px 142px 142px 142px;
     font-family: 'Vesetia';
-    color:white;
+    color: white;
     margin-top: 50px;
 }
 
@@ -237,36 +251,36 @@ nav li {
     transform: scale(1.2);
 }
 
-.center_elements{
+.center_elements {
     text-align: center;
     margin: 0 auto;
 }
 
-.title_distance{
+.title_distance {
     padding: 0% 0% 5% 0%;
-    font-size: 4rem;
 }
 
-.title_distance_contact{
+.title_distance_contact {
     padding: 5% 0% 5% 0%;
 }
 
-.section_link{
+.section_link {
     font-size: 1rem;
     font-family: "Vesetia";
     padding: 2.5% 0% 0% 0%;
 }
 
-a:link {text-decoration: none;}
+a:link {
+    text-decoration: none;
+}
 
-.global_container{
-    width: 69%;
+.global_container {
     margin: 0 auto;
     font-size: 300px;
 }
 
 .background-header-home {
-    background-image: url(../pockets_project/assets/img/fondo_home1.png);
+    background-image: url(../proyecto/assets/img/fondo_home1.png);
     background-repeat: no-repeat;
     background-position: center;
     padding-right: 0;
@@ -275,8 +289,19 @@ a:link {text-decoration: none;}
     background-attachment: fixed;
 }
 
+.background-ubi {
+    background-image: url(../proyecto/assets/img/fondo-loc2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-right: 0;
+    max-width: 100%;
+    background-attachment: fixed;
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+
 .background-drinks {
-    background-image: url(../pockets_project/assets/img/fondo_home2.png);
+    background-image: url(../proyecto/assets/img/fondo_home2.png);
     background-repeat: no-repeat;
     background-position: center;
     padding-right: 0;
@@ -286,7 +311,7 @@ a:link {text-decoration: none;}
 }
 
 .background-res {
-    background-image: url(../pockets_project/assets/img/fondo_home3.png);
+    background-image: url(../proyecto/assets/img/fondo_home3.png);
     background-repeat: no-repeat;
     background-position: center;
     padding-right: 0;
@@ -296,7 +321,7 @@ a:link {text-decoration: none;}
 }
 
 .background-enter {
-    background-image: url(../pockets_project/assets/img/fondo_home4.png);
+    background-image: url(../proyecto/assets/img/fondo_home4.png);
     background-repeat: no-repeat;
     background-position: center;
     padding-right: 0;
@@ -306,7 +331,7 @@ a:link {text-decoration: none;}
 }
 
 .background-disco {
-    background-image: url(../pockets_project/assets/img/fondo_home5.png);
+    background-image: url(../proyecto/assets/img/fondo_home5.png);
     background-repeat: no-repeat;
     background-position: center;
     padding-right: 0;
@@ -316,7 +341,7 @@ a:link {text-decoration: none;}
 }
 
 .background-acti {
-    background-image: url(../pockets_project/assets/img/fondo_home6.png);
+    background-image: url(../proyecto/assets/img/fondo_home6.png);
     background-repeat: no-repeat;
     background-position: center;
     padding-right: 0;
@@ -371,9 +396,6 @@ a:link {text-decoration: none;}
         padding-right: 20px;
         font-size: 14px;
     }
-    h1, h2 {
-        font-size: 30px;
-    }
     .button {
         margin-bottom: 50px;
         font-size: 14px;
@@ -394,6 +416,9 @@ a:link {text-decoration: none;}
 }
 
 @media (max-width: 1500px) {
+    .background-contact {
+        padding-left: 80px;
+    }
     .gettouch {
         width: 30px;
     }
@@ -408,90 +433,37 @@ a:link {text-decoration: none;}
         padding-right: 20px;
         font-size: 14px;
     }
-
 }
 
-@media (max-width: 500px){
-    
+@media (max-width: 500px) {
     .loguito {
-        width: 80%;
-        margin: 75% 0% 0% 10%;
+        width: 100%;
     }
-    
-    .background-header{
-        height: 100%;
-    }
-    
-
-    .background-404{
-        height: auto;
-    }
-    
-    .background-header-home{
-        height: 100%;
-    }
-
-    .background-drinks{
-        height: 100%;
-    }
-
-    .background-res{
-        height: 100%;
-    }
-
-    .background-enter{
-        height: 100%;
-    }
-
-    .background-disco{
-        height: 100%;
-    }
-
-    .background-acti{
-        height: 100%;
-    }
-
     .res_imgs {
         width: 70%;
     }
-
-    .background_cocktail {
-        height: 100%;
-    }
-
-    .background_cocktail2{
+    .background_cocktail2 {
         height: auto;
     }
-
-    .textos{
-        width: 100%;
-        padding: 0;
-    }
-
-    .txt_bebidas{
+    .txt_bebidas {
         padding: 8% 0% 2% 0%;
     }
-
-    .fix_distribution{
+    .fix_distribution {
         float: right;
     }
-
-    .parr_404{
+    .parr_404 {
         padding: 10% 0% 2% 0%;
     }
 }
 
-@media (max-width: 450px){
-    .textos{
-        width: 100%;
-        padding: 0;
-        font-size: 1.2rem
+@media (max-width: 450px) {
+    .textos {
+        font-size: 1rem
     }
-
-    .x_img{
+    .x_img {
         width: 40%;
     }
-    .txt_bebidas{
+    .txt_bebidas {
         padding: 8% 0% 2% 0%;
     }
 }
