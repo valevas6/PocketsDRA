@@ -10,7 +10,7 @@ License: GNU General Public License v2
 
 @font-face {
     font-family: "Vesetia";
-    src: url(../proyecto/assets/font/Vesetia.otf);
+    src: url(../proyecto/assets/font/holi.otf);
 }
 
 @font-face {
@@ -204,7 +204,6 @@ nav li {
     padding-right: 0;
     max-width: 100%;
     padding: 10%;
-    height: 100%;
     background-attachment: fixed;
 }
 
