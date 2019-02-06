@@ -95,8 +95,6 @@ a:hover {
 
 .background-header {
     background-image: url(../proyecto/assets/img/about.png);
-    background-repeat: no-repeat;
-    background-position: center;
     padding-right: 0;
     width: 100%;
     padding: 10%;
@@ -105,8 +103,6 @@ a:hover {
 
 .background_cocktail {
     background-image: url(../proyecto/assets/img/fondo_cocktails1.png);
-    background-repeat: no-repeat;
-    background-position: center;
     padding-right: 0;
     width: 100%;
     padding: 10%;
@@ -115,7 +111,6 @@ a:hover {
 
 .background_cocktail2 {
     background-image: url(../proyecto/assets/img/fondo_cocktails2.png);
-    background-position: center;
     padding-right: 0;
     width: 100%;
     padding: 10%;
@@ -124,8 +119,6 @@ a:hover {
 
 .background-contact {
     background-image: url(../proyecto/assets/img/ab3.png);
-    background-repeat: no-repeat;
-    background-position: center;
     max-width: 100%;
     padding: 60px;
     padding-left: 160px;
@@ -134,8 +127,6 @@ a:hover {
 
 .background-location {
     background-image: url(../proyecto/assets/img/fondo-loc.png);
-    background-repeat: no-repeat;
-    background-position: center;
     max-width: 100%;
     padding: 60px;
     padding-left: 160px;
@@ -199,8 +190,6 @@ nav li {
 
 .background-404 {
     background-image: url(../proyecto/assets/img/404_img.png);
-    background-repeat: no-repeat;
-    background-position: center;
     padding-right: 0;
     max-width: 100%;
     padding: 10%;
@@ -280,18 +269,19 @@ a:link {
 
 .background-header-home {
     background-image: url(../proyecto/assets/img/fondo_home1.png);
-    background-repeat: no-repeat;
-    background-position: center;
     padding-right: 0;
     max-width: 100%;
     padding: 10%;
     background-attachment: fixed;
 }
 
+.paddingtext {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
 .background-ubi {
     background-image: url(../proyecto/assets/img/fondo-loc2.png);
-    background-repeat: no-repeat;
-    background-position: center;
     padding-right: 0;
     max-width: 100%;
     background-attachment: fixed;
@@ -301,18 +291,15 @@ a:link {
 
 .background-drinks {
     background-image: url(../proyecto/assets/img/fondo_home2.png);
-    background-repeat: no-repeat;
-    background-position: center;
     padding-right: 0;
     max-width: 100%;
     padding: 10%;
     background-attachment: fixed;
+    margin-bottom: -30px;
 }
 
 .background-res {
     background-image: url(../proyecto/assets/img/fondo_home3.png);
-    background-repeat: no-repeat;
-    background-position: center;
     padding-right: 0;
     max-width: 100%;
     padding: 10%;
@@ -321,8 +308,6 @@ a:link {
 
 .background-enter {
     background-image: url(../proyecto/assets/img/fondo_home4.png);
-    background-repeat: no-repeat;
-    background-position: center;
     padding-right: 0;
     max-width: 100%;
     padding: 10%;
@@ -331,8 +316,6 @@ a:link {
 
 .background-disco {
     background-image: url(../proyecto/assets/img/fondo_home5.png);
-    background-repeat: no-repeat;
-    background-position: center;
     padding-right: 0;
     max-width: 100%;
     padding: 10%;
@@ -341,12 +324,11 @@ a:link {
 
 .background-acti {
     background-image: url(../proyecto/assets/img/fondo_home6.png);
-    background-repeat: no-repeat;
-    background-position: center;
     padding-right: 0;
     max-width: 100%;
     padding: 10%;
     background-attachment: fixed;
+    margin-bottom: -60px;
 }
 
 .banner_img {
