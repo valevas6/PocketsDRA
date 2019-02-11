@@ -9,8 +9,8 @@ get_header();
 
 
     <div class="background-ubi">
-    <h1 class="title_distance center_elements">Location</h1>
-        <p class="textos">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius voluptates tempore quo iste minus architecto dolore facilis libero enim. Eum soluta officia aliquid quae modi possimus saepe odio laudantium voluptate Lorem ipsum dolor sit amet consectetur
+    <h1 class="title_distance center_elements ">Location</h1>
+        <p class="textos paddingtext">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius voluptates tempore quo iste minus architecto dolore facilis libero enim. Eum soluta officia aliquid quae modi possimus saepe odio laudantium voluptate Lorem ipsum dolor sit amet consectetur
         adipisicing elit. Eius voluptates tempore quo iste minus architecto dolore facilis libero enim. Eum soluta officia aliquid quae modi possimus saepe odio laudantium voluptate
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius voluptates tempore quo iste minus architecto dolore facilis libero enim. Eum soluta officia aliquid quae modi possimus saepe odio laudantium voluptate? </p>
         <br>
