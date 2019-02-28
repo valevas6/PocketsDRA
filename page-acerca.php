@@ -6,7 +6,7 @@ while (have_posts()) : the_post(); ?>
 <div class="master_container">
 
 <div class="background-header center_elements">
-    <?php echo get_the_post_thumbnail( $page->ID, 'loguito'); ?>
+    <?php echo get_the_post_thumbnail( $page->ID, 'medium_large'); ?>
 </div>
 
 <?php
@@ -19,7 +19,7 @@ while (have_posts()) : the_post(); ?>
 
     $fondos = array("background-ab1", "background-ubi", "background-ab2");  
 
-	$mypages = get_pages( array( 'child_of' => 17, 'sort_column' => 'post_date', 'sort_order' => 'desc' ) ); /*comprobar que el numero de pagina sea el correcto*/
+	$mypages = get_pages( array( 'child_of' => 156, 'sort_column' => 'post_date', 'sort_order' => 'desc' ) ); /*comprobar que el numero de pagina sea el correcto*/
 
 	foreach( $mypages as $page ) {		
 		$content = $page->post_content;

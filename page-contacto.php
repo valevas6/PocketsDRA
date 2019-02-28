@@ -10,7 +10,7 @@ get_header();
 
 <?php
 
-	$mypages = get_pages( array( 'child_of' => 19, 'sort_column' => 'post_date', 'sort_order' => 'desc' ) ); /*comprobar que el numero de pagina sea el correcto*/
+	$mypages = get_pages( array( 'child_of' => 183, 'sort_column' => 'post_date', 'sort_order' => 'desc' ) ); /*comprobar que el numero de pagina sea el correcto*/
 
 	foreach( $mypages as $page ) {		
 		$content = $page->post_content;
@@ -31,10 +31,10 @@ get_header();
         <div class="row container">
             <div class="col-lg-6 col-md-12 mar">
                 <center>
-                    <h2>Formularie Contact</h2>
+                    <h2>Formulario</h2>
                 </center>
                 <div class="form-group row paddingtoprow">
-                    <div class="col-lg-3 col-md-12"><label> <h3>Name:</h3> </label></div>
+                    <div class="col-lg-3 col-md-12"><label> <h3>Nombre:</h3> </label></div>
                     <div class="col-lg-9 col-md-12"><input type="text" class="form-control" placeholder=""></div>
                 </div>
                 <div class="form-group row paddingtoprow">
@@ -42,15 +42,15 @@ get_header();
                     <div class="col-lg-9 col-md-12"><input type="email" class="form-control" placeholder=""></div>
                 </div>
                 <div class="form-group row paddingtoprow">
-                    <div class="col-lg-3 col-md-12"><label><h3>Comment:</h3></label></div>
+                    <div class="col-lg-3 col-md-12"><label><h3>Comentario:</h3></label></div>
                     <div class="col-lg-9 col-md-12"><textarea type="text" rows="3" class="form-control" placeholder=""></textarea></div>
                 </div>
                 <br>
-                <center><button class="btn button">Submit</button></center>
+                <center><button class="btn button">Enviar</button></center>
             </div>
             <div class="col-lg-6 col-md-12">
                 <center>
-                    <h2>Get in touch</h2>
+                    <h2>Manténtente en contacto</h2>
                 </center>
                 <div class="row margin-gett">
                     <div class="col-2 margintextgett"><img src="<?php bloginfo('template_directory'); ?>/assets/img/tel.png" class="gettouch"></div>
@@ -78,4 +78,3 @@ get_header();
 <?php 
 get_footer();
 ?>
-    

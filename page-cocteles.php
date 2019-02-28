@@ -8,7 +8,7 @@ while (have_posts()) : the_post(); ?>
 </div>
 
 <?php
-	$mypages = get_pages( array( 'child_of' => 14, 'sort_column' => 'post_date', 'sort_order' => 'desc' ) ); /*comprobar que el numero de pagina sea el correcto*/
+	$mypages = get_pages( array( 'child_of' => 143, 'sort_column' => 'post_date', 'sort_order' => 'desc' ) ); /*comprobar que el numero de pagina sea el correcto*/
 
 	foreach( $mypages as $page ) {		
 		$content = $page->post_content;

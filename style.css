@@ -42,6 +42,8 @@ nav {
 
 .row {
     width: 100%;
+	margin-right: auto;
+    margin-left: auto;
 }
 
 .textos {
@@ -81,6 +83,27 @@ a {
     font-size: 20px;
 }
 
+select {
+    background-color: #00102E;
+    font-family: 'Vesetia';
+    font-size: 20px;
+    color: #FF85DD;
+    margin: 20%;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    border-color: #FF85DD
+}
+
+
+.background-reservation {
+    background-image: url(../proyecto/assets/img/ab3.png);
+    max-width: 100%;
+    padding: 60px;
+    background-attachment: fixed;
+}
+
+
 a:hover {
     color: #009FEF;
 }
@@ -113,7 +136,8 @@ a:hover {
     background-image: url(../proyecto/assets/img/fondo_cocktails2.png);
     padding-right: 0;
     width: 100%;
-    padding: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
     background-attachment: fixed;
 }
 
@@ -138,8 +162,11 @@ a:hover {
     margin-right: 70px;
 }
 
-.loguito {
-    width: 80%;
+.attachment-loguito {
+    width: auto;
+    height: auto;
+    max-width: 70%;
+    max-height: 70%;
 }
 
 .page_intro {
@@ -148,6 +175,7 @@ a:hover {
 
 .fondoazul {
     background: #00102E;
+	padding-top:5%;
 }
 
 .button {
@@ -234,6 +262,10 @@ nav li {
     transform: scale(1.2);
 }
 
+.blueback {
+    width: 100%;
+}
+
 .button_contact:hover {
     filter: grayscale(40%);
     transform: scale(1.2);
@@ -297,7 +329,6 @@ a:link {
 
 .background-drinks {
     background-image: url(../proyecto/assets/img/fondo_home2.png);
-    padding-right: 0;
     max-width: 100%;
     padding: 10%;
     background-attachment: fixed;
@@ -337,13 +368,18 @@ a:link {
     margin-bottom: -60px;
 }
 
-.banner_img {
-    width: 100%;
+.attachment-banner_img {
+    width: auto;
+    height: auto;
+    max-width: 70%;
+    max-height: 70%;
 }
 
-.res_imgs {
-    width: 50%;
-    padding: 1% 1% 1% 1%;
+.attachment-res_imgs {
+    width: auto;
+    height: auto;
+    max-width: 70%;
+    max-height: 70%;
 }
 
 .letraspink {
@@ -391,7 +427,6 @@ a:link {
     }
     .background-contact {
         padding: 10px;
-        padding-left: 10px;
     }
     h3 {
         font-size: 15px;
@@ -431,9 +466,6 @@ a:link {
 }
 
 @media (max-width: 1500px) {
-    .background-contact {
-        padding-left: 80px;
-    }
     .gettouch {
         width: 30px;
     }
@@ -451,10 +483,13 @@ a:link {
 }
 
 @media (max-width: 500px) {
-    .loguito {
-        width: 100%;
+    .attachment-loguito {
+        width: auto;
+        height: auto;
+        max-width: 300px;
+        max-height: 300px;
     }
-    .res_imgs {
+    .attachment-res_imgs {
         width: 70%;
     }
     .background_cocktail2 {
@@ -481,4 +516,39 @@ a:link {
     .txt_bebidas {
         padding: 8% 0% 2% 0%;
     }
+}
+
+/********Cambios del menu*********/
+
+.background-menu {
+    background-image: url(../proyecto/assets/img/fondo_menu1.png);
+    max-width: 100%;
+    background-attachment: fixed;
+}
+
+.background-menu2 {
+    background-image: url(../proyecto/assets/img/fondo_menu2.png);
+    max-width: 100%;
+    background-attachment: fixed;
+}
+
+@media (max-width: 500px){
+    .logo_menu{
+        margin-left: -50%;
+    }
+}
+
+.alignnone{
+    width: auto;
+    height: auto;
+    max-width: 50%;
+    max-height: 50%;
+}
+
+.boton{
+    margin-left: 70%;
+}
+
+.elementsmenu{
+	align-content: center;
 }
